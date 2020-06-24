@@ -13,7 +13,7 @@ jobs:
       - name: Update gist
         uses: Dobby233Liu/productive-box@master
         env:
-          # I'm pretty sure this works
+          # I'm pretty sure. This will work!
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIST_ID: 84ea39cc7ba1e952a392a60b3528867d
           TIMEZONE: Asia/Shanghai
